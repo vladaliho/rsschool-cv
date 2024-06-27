@@ -1,5 +1,3 @@
-![My photo](file:///home/uladapc/Documents/photo1717757087.jpeg)
-
 # Frontend developer
 
 ## Personal Information
