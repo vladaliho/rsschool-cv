@@ -21,23 +21,24 @@ background-color: #f4fce3;
     font-size: 1.6rem;
     border: #555 solid 1px;
     max-width: 100rem;
-    margin: 0 auto;
+    margin: 4rem auto;
     box-shadow: 1px 81px 100px 5px rgba(0, 0, 0, 0.49);
 }
 
 .name-photo{
 display: grid;
-grid-template-columns: 25% 75%;
+grid-template-columns: 27rem 73rem;
 max-width: 100rem;
 align-items: center;
-border-bottom: #e5dbff solid 2px;
-padding: 1.6rem 3rem 1.8rem 3rem;
+border-bottom: #c0eb75 solid 3px;
+
 }
 
 .my-photo {
-    width: 90%;
+    display: inline;
+    width: 100%;
     height: auto;
-    border-radius: 20px;
+    align-self: start;
     
 }
 
@@ -63,24 +64,26 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     justify-content: space-between;
     max-width: 100rem;
     gap: 4rem;
-    margin-bottom: 1.2rem;
 }
 
 .column-background {
     display: flex;
-    background-color: #f3f0ff;
+    background-color: #e9fac8;
     align-self: stretch;
     flex-basis: 27rem;
     flex-shrink: 0;
+    padding-bottom: 1.2rem;
 } 
 
 .important-info {
-    font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     padding-left: 3rem;
-    padding-top: 1.6rem;    
+    padding-top: 1.6rem;
+    padding-right: 1.2rem;
+    padding: 1.6rem 3rem 1.8rem 3rem;
+     
         
 }
 
@@ -90,14 +93,28 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     flex-direction: column;
     gap: 2rem;
     padding-top: 1.6rem;
+    margin-right: 2.4rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+.secondary-info h2 {
+    font-size: 2.4rem;
+    display: inline-block;
+    border-bottom: #d8f5a2 solid 2px;
+    padding-bottom: 1.2rem;
 }
 
 .bullet-points {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
    list-style-position: inside;
+}
+
+.personal-info-list{
+    list-style: none;
 }
 
 .footer {
@@ -125,4 +142,21 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     stroke: #ffffff;
     fill: #ffffff;
 
+}
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: #5c940d;
+    text-decoration: none;
+}
+
+a:active {
+    color: #333;
 }
