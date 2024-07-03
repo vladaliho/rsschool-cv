@@ -9,17 +9,89 @@ html {
 }
 
 body {
-    font-family: sans-serif;
-    line-height: 1;
-    font-weight: 400;
-    color: #555;
-  padding-top: 2rem;
+ font-family: Inter, sans-serif;
+line-height: 1;
+font-weight: 400;
+color: #555;
   font-size: 1.6rem;
+  border: #555 solid 1px;
+  max-width: 100rem;
+  margin: 0 auto;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+
+
+.name-photo{
+display: grid;
+grid-template-columns: 25% 75%;
+max-width: 100rem;
+align-items: center;
+border-bottom: #e5dbff solid 2px;
+padding: 1.6rem 3rem 1.8rem 3rem;
+}
+
+.my-photo {
+    width: 90%;
+    height: auto;
+    border-radius: 12px;
+    
+}
+
+.heading-primary {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    }
+
+.heading-secondary {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #555;
+    margin-left: 4rem;
+    
 }
 
 .content-block {
-display: grid;
-grid-template-columns: 1fr 1fr;
-max-width: 130rem;
-margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100rem;
+    gap: 4rem;
+    
+        }
+
+.column-background {
+    display: flex;
+    background-color: #e5dbff;
+    align-self: stretch;
+    flex-basis: 27rem;
+    flex-shrink: 0;
+}
+
+.important-info {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 3rem;    
+        
+}
+
+.secondary-info {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bullet-points {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding-left: 20px;
+    margin-left: 0;
+    list-style-position: inside;
 }
