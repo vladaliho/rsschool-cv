@@ -12,14 +12,18 @@ body {
  font-family: Inter, sans-serif;
 line-height: 1;
 font-weight: 400;
-color: #555;
-  font-size: 1.6rem;
-  border: #555 solid 1px;
-  max-width: 100rem;
-  margin: 0 auto;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+background-color: #f4fce3;
 }
 
+.big-container {
+    color: #555;
+    background-color: #ffffff;
+    font-size: 1.6rem;
+    border: #555 solid 1px;
+    max-width: 100rem;
+    margin: 0 auto;
+    box-shadow: 1px 81px 100px 5px rgba(0, 0, 0, 0.49);
+}
 
 .name-photo{
 display: grid;
@@ -33,7 +37,7 @@ padding: 1.6rem 3rem 1.8rem 3rem;
 .my-photo {
     width: 90%;
     height: auto;
-    border-radius: 12px;
+    border-radius: 20px;
     
 }
 
@@ -59,23 +63,24 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     justify-content: space-between;
     max-width: 100rem;
     gap: 4rem;
-    
-        }
+    margin-bottom: 1.2rem;
+}
 
 .column-background {
     display: flex;
-    background-color: #e5dbff;
+    background-color: #f3f0ff;
     align-self: stretch;
     flex-basis: 27rem;
     flex-shrink: 0;
-}
+} 
 
 .important-info {
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 3rem;    
+    padding-left: 3rem;
+    padding-top: 1.6rem;    
         
 }
 
@@ -84,6 +89,7 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding-top: 1.6rem;
 }
 
 .bullet-points {
@@ -91,7 +97,32 @@ padding: 1.6rem 3rem 1.8rem 3rem;
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
-    padding-left: 20px;
-    margin-left: 0;
-    list-style-position: inside;
+   list-style-position: inside;
+}
+
+.footer {
+    display: flex;
+    padding: 0.6rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+.logo-github {
+    width: 3.2rem;
+    height: 3.2rem;
+    color: #ffffff;
+}
+
+.app-year {
+    font-size: 1.6rem;
+    color: #ffffff;
+
+}
+
+.logo-RSS {
+    width: 6rem;
+    stroke: #ffffff;
+    fill: #ffffff;
+
 }
