@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #f4fce3;
+}
+
+.big-container {
+    color: #555;
+    background-color: #ffffff;
+    font-size: 1.6rem;
+    border: #555 solid 1px;
+    max-width: 100rem;
+    margin: 4rem auto;
+    box-shadow: 1px 81px 100px 5px rgba(0, 0, 0, 0.49);
+}
+
+.name-photo{
+    display: grid;
+    grid-template-columns: 27rem 73rem;
+    max-width: 100rem;
+    align-items: center;
+    border-bottom: #c0eb75 solid 3px;
+
+}
+
+.photo-block {
+    max-height: 27rem;
+}
+
+.my-photo {
+    display: inline;
+    width: 100%;
+    height: auto;
+    align-self: start;
+    
+}
+
+.heading-primary {
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    }
+
+.heading-secondary {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #555;
+    margin-left: 4rem;
+    
+}
+
+.content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100rem;
+    gap: 4rem;
+}
+
+.column-background {
+    display: flex;
+    background-color: #e9fac8;
+    align-self: stretch;
+    flex-basis: 27rem;
+    flex-shrink: 0;
+    padding-bottom: 1.2rem;
+} 
+
+.important-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.6rem 1rem 1rem 1.6rem;
+            
+}
+
+.bullet-points {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+   list-style-position: inside;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    line-height: 1.6;
+}
+
+.personal-info-list{
+    list-style: none;
+    }
+
+.personal-info-list li:last-child {
+    margin-bottom: 1.6rem;
+}
+
+.pesonal-info-icon {
+    width: 2rem;
+    height: 2rem;
+ }
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.skills-list li:last-child {
+    margin-bottom: 1.6rem;
+}
+
+
+.secondary-info {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 1.6rem;
+    margin-right: 4rem;
+    padding-bottom: 1.2rem;
+    
+}
+
+ h2 {
+    font-size: 2.6rem;
+    display: inline-block;
+    border-bottom: #d8f5a2 solid 2px;
+    padding-bottom: 1.2rem;
+    margin-top: 1.6rem;
+    color: #333;
+    
+}
+
+ h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    
+}
+
+.code-example {
+    margin-top: -2.4rem;
+}
+
+.code-size {
+    font-size: 1.8rem;
+    
+    }
+
+.experience-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.experience-list {
+    padding-left: 1.6rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    line-height: 1.1;
+    padding-left: 1.6rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
+}
+
+.projects-section {
+    margin-bottom: 1.6rem;
+}
+
+.omnifood-logo {
+    height: 2rem;
+}
+
+
+.footer {
+    display: flex;
+    padding: 0.6rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #555;
+}
+
+.logo-github {
+    width: 3.2rem;
+    height: 3.2rem;
+    color: #ffffff;
+}
+
+.app-year {
+    font-size: 1.6rem;
+    color: #ffffff;
+
+}
+
+.logo-RSS {
+    width: 6rem;
+    stroke: black;
+    fill: #ffffff;
+
+}
+
+a:link {
+    color: #333;
+}
+
+a:visited {
+    color: #333;
+}
+
+a:hover {
+    color: #5c940d;
+    text-decoration: none;
+}
+
+a:active {
+    color: #333;
+}
