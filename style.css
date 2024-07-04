@@ -34,6 +34,10 @@ body {
 
 }
 
+.photo-block {
+    max-height: 27rem;
+}
+
 .my-photo {
     display: inline;
     width: 100%;
@@ -185,6 +189,14 @@ body {
     padding-left: 1.6rem;
     font-size: 1.8rem;
     margin-bottom: 1.4rem;
+}
+
+.projects-section {
+    margin-bottom: 1.6rem;
+}
+
+.omnifood-logo {
+    height: 2rem;
 }
 
 
