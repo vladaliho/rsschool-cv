@@ -9,10 +9,10 @@ html {
 }
 
 body {
- font-family: Inter, sans-serif;
-line-height: 1;
-font-weight: 400;
-background-color: #f4fce3;
+    font-family: Inter, sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    background-color: #f4fce3;
 }
 
 .big-container {
@@ -26,11 +26,11 @@ background-color: #f4fce3;
 }
 
 .name-photo{
-display: grid;
-grid-template-columns: 27rem 73rem;
-max-width: 100rem;
-align-items: center;
-border-bottom: #c0eb75 solid 3px;
+    display: grid;
+    grid-template-columns: 27rem 73rem;
+    max-width: 100rem;
+    align-items: center;
+    border-bottom: #c0eb75 solid 3px;
 
 }
 
@@ -123,7 +123,7 @@ border-bottom: #c0eb75 solid 3px;
 
 
 .secondary-info {
-    font-size: 1.8rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -133,19 +133,31 @@ border-bottom: #c0eb75 solid 3px;
     
 }
 
-.secondary-info h2 {
-    font-size: 2.4rem;
+ h2 {
+    font-size: 2.6rem;
     display: inline-block;
     border-bottom: #d8f5a2 solid 2px;
     padding-bottom: 1.2rem;
     margin-top: 1.6rem;
+    color: #333;
+    
 }
 
-.secondary-info h3 {
+ h3 {
     font-size: 2rem;
     font-weight: 700;
-    color: #555;
+    color: #333;
+    
 }
+
+.code-example {
+    margin-top: -2.4rem;
+}
+
+.code-size {
+    font-size: 1.8rem;
+    
+    }
 
 .experience-section {
     display: flex;
@@ -153,15 +165,26 @@ border-bottom: #c0eb75 solid 3px;
     gap: 1.2rem;
 }
 
-.working-period {
-    
+.experience-list {
+    padding-left: 1.6rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
 }
 
-.experience-list {
-  padding-left: 1.6rem;
-  font-size: 1.8rem;
-  color: #555;
-  margin-bottom: 1.2rem;
+.education-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    line-height: 1.1;
+    padding-left: 1.6rem;
+    font-size: 1.8rem;
+    margin-bottom: 1.4rem;
 }
 
 
@@ -170,7 +193,7 @@ border-bottom: #c0eb75 solid 3px;
     padding: 0.6rem 4rem;
     align-items: center;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #555;
 }
 
 .logo-github {
@@ -187,7 +210,7 @@ border-bottom: #c0eb75 solid 3px;
 
 .logo-RSS {
     width: 6rem;
-    stroke: #ffffff;
+    stroke: black;
     fill: #ffffff;
 
 }
