@@ -79,13 +79,48 @@ border-bottom: #c0eb75 solid 3px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding-left: 3rem;
-    padding-top: 1.6rem;
-    padding-right: 1.2rem;
-    padding: 1.6rem 3rem 1.8rem 3rem;
-     
-        
+    padding: 1.6rem 1rem 1rem 1.6rem;
+            
 }
+
+.bullet-points {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+   list-style-position: inside;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+    line-height: 1.6;
+}
+
+.personal-info-list{
+    list-style: none;
+    }
+
+.personal-info-list li:last-child {
+    margin-bottom: 1.6rem;
+}
+
+.pesonal-info-icon {
+    width: 2rem;
+    height: 2rem;
+ }
+
+.skills-list {
+    list-style: none;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.skills-list li:last-child {
+    margin-bottom: 1.6rem;
+}
+
 
 .secondary-info {
     font-size: 1.8rem;
@@ -93,7 +128,7 @@ border-bottom: #c0eb75 solid 3px;
     flex-direction: column;
     gap: 2rem;
     padding-top: 1.6rem;
-    margin-right: 2.4rem;
+    margin-right: 4rem;
     padding-bottom: 1.2rem;
     
 }
@@ -103,19 +138,32 @@ border-bottom: #c0eb75 solid 3px;
     display: inline-block;
     border-bottom: #d8f5a2 solid 2px;
     padding-bottom: 1.2rem;
+    margin-top: 1.6rem;
 }
 
-.bullet-points {
-    font-size: 1.5rem;
+.secondary-info h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #555;
+}
+
+.experience-section {
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
-   list-style-position: inside;
+    gap: 1.2rem;
 }
 
-.personal-info-list{
-    list-style: none;
+.working-period {
+    
 }
+
+.experience-list {
+  padding-left: 1.6rem;
+  font-size: 1.8rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
 
 .footer {
     display: flex;
